@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coop-Nexus Registration Form</title>
+  <style>
+    /* Form styling */
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 2px solid #ddd;
+      font-size: 16px;
+    }
+    input:focus {
+      outline: none;
+      border-bottom: 2px solid #007bff;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      border: none;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0069d9;
+    }
+    /* Welcome message styling */
+    .welcome {
+      background-color: #f1f1f1;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 24px;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <div class="welcome">
+    <p>Thank you for registering with Coop-Nexus!</p>
+    <p>You are now part of a cooperative community of like-minded individuals.</p>
+  </div>
+
+</body>
+</html>
